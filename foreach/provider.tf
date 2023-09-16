@@ -6,12 +6,7 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "sahith-remote-state"
-    key = "foreach-demo"
-    region = "us-east-1"
-    dynamodb_table = "roboshop-lock"
-  }
+  
 
 }
 
