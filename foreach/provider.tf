@@ -10,7 +10,7 @@ terraform {
     bucket = "sahith-remote-state"
     key = "foreach-demo"
     region = "us-east-1"
-    dynamodb-table = "roboshop-lock"
+    dynamodb_table = "roboshop-lock"
   }
 
 }
